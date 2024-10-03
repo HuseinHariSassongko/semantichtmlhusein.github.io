@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 2 Husein Hari Sassongko</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ab0707;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ff0808;
+            color: rgb(14, 7, 7);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(171, 13, 13);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        article {
+            flex: 3;
+            margin-right: 20px;
+        }
+
+        aside {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #ddd5d5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .video-container {
+            margin: 20px 0;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 1000px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #0c0404;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #fdfdfd;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        <h1>Blog Sistem Informasi</h1>
+                        <h2>(Dibuat Oleh Husein FT Lan) Cihuyy</h2>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </header>
+
+    <nav>
+        <table>
+            <thead>
+                <tr>
+                    <th><a href="#">Tentang Kami</a></th>
+                    <th><a href="#">Akademik</a></th>
+                    <th><a href="#">Dosen & Staf</a></th>
+                    <th><a href="#">Kerja Sama</a></th>
+                    <th><a href="#">Blog</a></th>
+                    <th><a href="#">Admin</a></th>
+                </tr>
+            </thead>
+        </table>
+    </nav>
+
+    <div class="container">
+        <article>
+            <h2>Dua Wisudawan Sistem Informasi Berhasil Meraih Predikat Cumlaude</h2>
+            <p>Institut Teknologi Telkom Surabaya telah menggelar prosesi wisuda ke-1 secara luring di Hotel Grand
+                Dafam, Surabaya pada Sabtu (26/08/2023) </p>
+
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/bboTVfT1NWY?si=xtygFTvj5rWmEb0r" title="Video Sidang Terbuka"></iframe>
+            </div>
+
+            <p>Selain wisudawan meraih cumlaude, wisudawan yang berhasil lulus dengan nilai 4.00 adalah:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Predikat</th>
+                        <th>IPK</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Husein Hari Sassongko</td>
+                        <td>Cumlaude</td>
+                        <td>4.00</td>
+                    </tr>
+                    <tr>
+                        <td>Sainsujin Sassongko Hari</td>
+                        <td>Cumlaude</td>
+                        <td>4.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </article>
+
+        <aside>
+            <section>
+                <h3>Artikel Terbaru</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Judul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#">Dua Wisudawan Sistem Informasi Berhasil Meraih Predikat Cumlaude</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Dua Mahasiswa Sistem Informasi Raih Penghargaan di ajang Putra Putri Jawa
+                                    2021</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">FLAYBOX hadir kembali!!! Segera daftarkan dirimu di FLAYBOX Season II</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3>Artikel Terpopuler</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Judul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#">Dua Wisudawan Sistem Informasi Berhasil Meraih Predikat Cumlaude</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Dua Mahasiswa Sistem Informasi Raih Penghargaan di ajang Putra Putri Jawa
+                                    2021</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">FLAYBOX hadir kembali!!! Segera daftarkan dirimu di FLAYBOX Season II</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Information Systems</p>
+        <p>Alamat: Jl. Ketintang No.156, Surabaya, Jawa Timur 60231 | Telp: +62 813 8300 8000 | Email:
+            sisteminformasi@ittelkom-surabaya.ac.id</p>
+    </footer>
+
+</body>
+
+</html>
